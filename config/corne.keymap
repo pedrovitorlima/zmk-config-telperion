@@ -15,15 +15,15 @@
       compatible = "zmk,keymap";
   layer0 {
           bindings = <
-          MT(KC_ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp MINUS &kp LEFT_SHIFT &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp BACKSLASH &kp LEFT_GUI MT(KC_LALT &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH MT(KC_RCTL &mo 0 &lt 1 ENTER &lt 2 TAB &lt 2 BACKSPACE &lt 3 SPACE &kp RIGHT_CONTROL
+          &mt ESCAPE GRAVE &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp MINUS &kp LEFT_SHIFT &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp BACKSLASH &kp LEFT_GUI &mt LEFT_ALT Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &mt RIGHT_CONTROL SINGLE_QUOTE &mo 0 &lt 1 ENTER &lt 2 TAB &lt 2 BACKSPACE &lt 3 SPACE &kp RIGHT_CONTROL
           >;
         };layer1 {
           bindings = <
-          &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans &trans [[KC_EXLM]] [[KC_AT]] [[KC_HASH]] [[KC_DLR]] [[KC_PERC]] [[KC_CIRC]] [[KC_AMPR]] [[KC_ASTR]] &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans &trans &none &none &none &none &none &none &none &none &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };layer2 {
           bindings = <
-          [[KC_TILD]] &trans [[KC_AT]] [[KC_HASH]] [[KC_DLR]] &trans &kp N7 &kp N8 &kp N9 &kp MINUS &kp SLASH &trans &kp GRAVE &trans [[KC_AMPR]] [[KC_ASTR]] [[KC_LPRN]] &trans &kp N4 &kp N5 &kp N6 [[KC_PLUS]] [[KC_ASTR]] &kp BACKSPACE &kp LEFT_SHIFT &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET [[KC_LCBR]] [[KC_RCBR]] &kp N1 &kp N2 &kp N3 &kp DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
+          &none &trans &none &none &none &trans &kp N7 &kp N8 &kp N9 &kp MINUS &kp SLASH &trans &kp GRAVE &trans &none &none &none &trans &kp N4 &kp N5 &kp N6 &none &none &kp BACKSPACE &kp LEFT_SHIFT &trans &kp LEFT_BRACKET &kp RIGHT_BRACKET &none &none &kp N1 &kp N2 &kp N3 &kp DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
           >;
         };layer3 {
           bindings = <
