@@ -7,7 +7,7 @@
   "layout": "LAYOUT_split_3x6_3",
   "layers": [
     [
-      "MT(KC_ESC, KC_GRV)",
+      "MT(KC_ESC, KC_EQL)",
       "KC_Q",
       "KC_W",
       "KC_E",
