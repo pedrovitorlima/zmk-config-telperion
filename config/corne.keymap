@@ -23,7 +23,7 @@
           >;
         };layer2 {
           bindings = <
-          &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp N7 &kp N8 &kp N9 &kp KP_MINUS &kp KP_SLASH &kp ESCAPE &kp LEFT_SHIFT &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp N4 &kp N5 &kp N6 &kp KP_PLUS &kp KP_ASTERISK &kp BACKSPACE &kp LEFT_GUI &kp LEFT_ALT &trans &trans &kp F11 &kp F12 &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
+          &none &GRAVE F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp N7 &kp N8 &kp N9 &kp KP_MINUS &kp KP_SLASH &kp ESCAPE &kp LEFT_SHIFT &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp N4 &kp N5 &kp N6 &kp KP_PLUS &kp KP_ASTERISK &kp BACKSPACE &kp LEFT_GUI &kp LEFT_ALT &trans &trans &kp F11 &kp F12 &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
           >;
         };layer3 {
           bindings = <
