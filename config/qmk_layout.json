@@ -3,7 +3,7 @@
   "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "boardsource/unicorne",
-  "keymap": "boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_layout_split_3x6_3_mine",
+  "keymap": "boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_boardsource_unicorne_layout_split_3x6_3_mine",
   "layout": "LAYOUT_split_3x6_3",
   "layers": [
     [
@@ -51,7 +51,7 @@
       "KC_LCTL"
     ],
     [
-      "KC_TRNS",
+      "KC_GRV",
       "KC_1",
       "KC_2",
       "KC_3",
@@ -76,7 +76,7 @@
       "KC_RBRC",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
+      "KC_LALT",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -95,7 +95,7 @@
       "KC_TRNS"
     ],
     [
-      "KC_TILD",
+      "KC_GRV",
       "KC_F1",
       "KC_F2",
       "KC_F3",
@@ -141,8 +141,8 @@
     [
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
+      "KC_MRWD",
+      "KC_MFFD",
       "KC_BRID",
       "KC_BRIU",
       "KC_HOME",
@@ -164,9 +164,9 @@
       "KC_END",
       "KC_RSFT",
       "KC_TRNS",
-      "KC_MRWD",
-      "KC_MFFD",
-      "KC_MSTP",
+      "KC_LALT",
+      "KC_TRNS",
+      "KC_TRNS",
       "KC_MPLY",
       "KC_TRNS",
       "KC_PGDN",

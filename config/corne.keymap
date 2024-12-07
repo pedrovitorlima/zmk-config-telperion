@@ -19,15 +19,15 @@
           >;
         };layer1 {
           bindings = <
-          &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans &trans &none &none &none &none &none &none &none &none &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans &trans &none &none &none &none &none &none &none &none &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &kp LEFT_ALT &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };layer2 {
           bindings = <
-          &none &GRAVE F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp N7 &kp N8 &kp N9 &kp KP_MINUS &kp KP_SLASH &kp ESCAPE &kp LEFT_SHIFT &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp N4 &kp N5 &kp N6 &kp KP_PLUS &kp KP_ASTERISK &kp BACKSPACE &kp LEFT_GUI &kp LEFT_ALT &trans &trans &kp F11 &kp F12 &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
+          &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp N7 &kp N8 &kp N9 &kp KP_MINUS &kp KP_SLASH &kp ESCAPE &kp LEFT_SHIFT &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp N4 &kp N5 &kp N6 &kp KP_PLUS &kp KP_ASTERISK &kp BACKSPACE &kp LEFT_GUI &kp LEFT_ALT &trans &trans &kp F11 &kp F12 &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp EQUAL &kp ENTER &trans &trans &kp TAB &kp BACKSPACE &kp N0 &trans
           >;
         };layer3 {
           bindings = <
-          &trans &trans &trans &trans &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &kp HOME &kp END &kp UP &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_MUTE &trans &kp PAGE_UP &kp LEFT &kp DOWN &kp RIGHT &kp END &kp RIGHT_SHIFT &trans &kp C_REWIND &kp C_FAST_FORWARD &kp C_STOP &kp C_PLAY_PAUSE &trans &kp PAGE_DOWN &kp C_PREVIOUS &kp C_NEXT &trans &mo 0 &kp RIGHT_CONTROL &none &none &none &none &none &none
+          &trans &trans &kp C_REWIND &kp C_FAST_FORWARD &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &kp HOME &kp END &kp UP &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_MUTE &trans &kp PAGE_UP &kp LEFT &kp DOWN &kp RIGHT &kp END &kp RIGHT_SHIFT &trans &kp LEFT_ALT &trans &trans &kp C_PLAY_PAUSE &trans &kp PAGE_DOWN &kp C_PREVIOUS &kp C_NEXT &trans &mo 0 &kp RIGHT_CONTROL &none &none &none &none &none &none
           >;
         };
     };
