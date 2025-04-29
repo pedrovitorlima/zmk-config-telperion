@@ -31,7 +31,7 @@
           >;
         };layer4 {
           bindings = <
-          &none &none &none &none &none &none &none &none &none &kp KC_LPRN &kp KC_RPRN &kp KC_TILD &none &none &none &none &none &none &none &none &none &kp KC_LBRC &kp KC_RBRC &none &none &none &none &none &none &none &none &none &none &kp KC_LCBR &kp KC_RCBR &none &none &none &none &none &none &none
+          &none &none &none &none &none &none &none &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp TILDE &none &none &none &none &none &none &none &none &none &kp LEFT_BRACE &kp RIGHT_BRACE &none &none &none &none &none &none &none &none &none &none &kp LEFT_BRACKET &kp RIGHT_BRACKET &none &none &none &none &none &none &none
           >;
         };
     };
