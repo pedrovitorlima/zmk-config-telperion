@@ -13,7 +13,7 @@
         homerow_mods: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
-            bindings = <&none>, <&none>;
+            bindings = <&none> <&none>;
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <13 14 15 22 21 20>;
