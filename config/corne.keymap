@@ -27,7 +27,7 @@
         layer0 {
             bindings = <
 &lt 4 ESCAPE    &lt 3 Q     &kp W               &kp E                   &kp R        &kp T           &kp Y            &kp U        &kp I            &kp O                &kp P                &kp MINUS
-&kp LEFT_SHIFT  &mt LGUI A  &mt LEFT_CONTROL S  &mt LALT D              &kp F        &kp G           &kp H            &kp J        &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RGUI SEMICOLON   &mt RSHFT BACKSLASH
+&kp LEFT_SHIFT  &homerow_mods LGUI &kp A  &homerow_mods LEFT_CONTROL &kp S  &homerow_mods LALT &kp D              &kp F        &kp G           &kp H            &kp J        &homerow_mods RIGHT_ALT &kp K    &homerow_mods RIGHT_CONTROL &kp L  &homerow_mods RGUI &kp SEMICOLON  &homerow_mods RSHFT &kp BACKSLASH
 &kp LEFT_GUI    &kp Z       &kp X               &kp C                   &kp V        &kp B           &kp N            &kp M        &kp COMMA        &kp DOT              &mt LA(LCTRL) SLASH  &lt 4 SQT
                                                 &mt LEFT_CONTROL EQUAL  &lt 1 ENTER  &mt LALT TAB    &lt 1 BACKSPACE  &lt 2 SPACE  &mt RALT GRAVE
             >;
