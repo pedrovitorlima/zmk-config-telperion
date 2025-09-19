@@ -18,10 +18,18 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+# include:
+#   - board: nice_nano_v2
+#     shield: corne_left nice_view_adapter nice_view
+#   - board: nice_nano_v2
+#     shield: corne_right nice_view_adapter nice_view
+#   - board: nice_nano_v2
+#     shield: settings_reset
+
 include:
   - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view
+    shield: corne_handwired_encoder_left
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view
+    shield: corne_handwired_encoder_right
   - board: nice_nano_v2
     shield: settings_reset

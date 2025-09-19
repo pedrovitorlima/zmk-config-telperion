@@ -1,0 +1,38 @@
+
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "zmk,keyboard-shield";
+
+    chosen { zmk,kscan = &kscan0; };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+
+        /* 7 columns wired to controller */
+        col-gpios = <&gpio0 17 GPIO_ACTIVE_LOW  /* D2 / P0.17 */
+                     &gpio0 20 GPIO_ACTIVE_LOW  /* D3 / P0.20 */
+                     &gpio0 22 GPIO_ACTIVE_LOW  /* D4 / P0.22 */
+                     &gpio0 24 GPIO_ACTIVE_LOW  /* D5 / P0.24 */
+                     &gpio1 0  GPIO_ACTIVE_LOW  /* D6 / P1.00 */
+                     &gpio0 11 GPIO_ACTIVE_LOW  /* D7 / P0.11 */
+                     &gpio1 4  GPIO_ACTIVE_LOW>;/* D8 / P1.04 */
+
+        /* Row1 here, row2-4 on right side pins */
+        row-gpios = <&gpio1 6 GPIO_ACTIVE_LOW   /* D9 / P1.06 row1 */
+                     &gpio0 31 GPIO_ACTIVE_LOW  /* D21 / P0.31 row2 */
+                     &gpio0 29 GPIO_ACTIVE_LOW  /* D20 / P0.29 row3 */
+                     &gpio0 2  GPIO_ACTIVE_LOW>;/* D19 / P0.02 row4 */
+    };
+
+    encoder0: encoder {
+        compatible = "gpio-encoder";
+        a-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;  /* D1 / P0.06 */
+        b-gpios = <&gpio0 8 GPIO_ACTIVE_HIGH>;  /* D0 / P0.08 */
+        steps-per-period = <4>;
+        status = "okay";
+    };
+};
+
