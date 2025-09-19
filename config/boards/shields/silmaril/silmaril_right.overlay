@@ -1,14 +1,15 @@
 #include "silmaril.dtsi"
 
 &default_transform {
-    col-offset = <6>;  
+    col-offset = <7>;  /* start after left 7 columns */
 };
 
 &kscan0 {
-    col-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 7 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 6 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 5 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 4 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 3 GPIO_ACTIVE_HIGH>;
+    col-gpios = <&pro_micro 17 GPIO_ACTIVE_HIGH>,  /* D2/P0.17 */
+                <&pro_micro 20 GPIO_ACTIVE_HIGH>,  /* D3/P0.20 */
+                <&pro_micro 22 GPIO_ACTIVE_HIGH>,  /* D4/P0.22 */
+                <&pro_micro 24 GPIO_ACTIVE_HIGH>,  /* D5/P0.24 */
+                <&pro_micro 0  GPIO_ACTIVE_HIGH>,  /* D6/P1.00 */
+                <&pro_micro 11 GPIO_ACTIVE_HIGH>,  /* D7/P0.11 */
+                <&pro_micro 4  GPIO_ACTIVE_HIGH>;  /* D8/P1.04 */
 };
