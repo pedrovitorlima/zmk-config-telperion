@@ -51,9 +51,9 @@
 
         layer0 {
             bindings = <
-&lt 4 EQUAL         &lt 3 Q         &kp W               &kp E                    &kp R                      &kp T           &none                    &none            &kp U            &kp I           &kp O                    &kp P                        &lt 5 MINUS            &hm RSHFT BACKSLASH
-&mt LEFT_SHIFT TAB  &hm LEFT_GUI A  &hm LEFT_CONTROL S  &hm LEFT_ALT D           &kp F                      &kp G           &none                    &none            &kp J            &hm RALT K      &hm RIGHT_CONTROL L      &hm RIGHT_COMMAND SEMICOLON  &hm RSHFT BACKSLASH    &hm RSHFT BACKSLASH
-&kp LEFT_GUI        &kp Z           &kp X               &kp C                    &kp V                      &kp B                                                     &kp COMMA        &kp DOT         &mt LA(LCTRL) SLASH      &lt 4 SQT                    &hm RSHFT BACKSLASH    &hm RSHFT BACKSLASH
+&lt 4 EQUAL         &lt 3 Q         &kp W               &kp E                    &kp R                      &kp T           &none                    &none            &kp Y            &kp U            &kp I           &kp O                    &kp P                        &lt 5 MINUS            
+&mt LEFT_SHIFT TAB  &hm LEFT_GUI A  &hm LEFT_CONTROL S  &hm LEFT_ALT D           &kp F                      &kp G           &none                    &none            &kp H            &kp J            &hm RALT K      &hm RIGHT_CONTROL L      &hm RIGHT_COMMAND SEMICOLON  &hm RSHFT BACKSLASH    
+&kp LEFT_GUI        &kp Z           &kp X               &kp C                    &kp V                      &kp B                                                     &kp N            &kp M            &kp COMMA        &kp DOT                  &mt LA(LCTRL) SLASH         &lt 4 SQT                    
                                                                                  &mt LEFT_CONTROL ESCAPE    &lt 1 ENTER     &mt LALT TAB             &lt 1 BACKSPACE  &lt 2 SPACE      &mt RALT GRAVE
             >;
         };
