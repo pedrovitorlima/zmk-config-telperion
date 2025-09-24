@@ -4,6 +4,7 @@
     col-offset = <7>;  /* start after left 7 columns */
 };
 
+/*  
 &kscan0 {
     col-gpios = <&pro_micro 17 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
                 <&pro_micro 20 GPIO_ACTIVE_HIGH>,  // D3 / P0.20 - col2
@@ -20,3 +21,5 @@
 
     };
 };
+
+*/
