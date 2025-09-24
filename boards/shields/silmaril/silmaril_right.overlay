@@ -5,17 +5,17 @@
 };
 
 &kscan0 {
-    col-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 3 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 4 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 5 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 6 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 7 GPIO_ACTIVE_HIGH>,
-                <&pro_micro 8 GPIO_ACTIVE_HIGH>;
-    
+    col-gpios = <&pro_micro 17 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
+                <&pro_micro 20 GPIO_ACTIVE_HIGH>,  // D3 / P0.20 - col2
+                <&pro_micro 22 GPIO_ACTIVE_HIGH>,  // D4 / P0.22 - col3
+                <&pro_micro 24 GPIO_ACTIVE_HIGH>,  // D5 / P0.24 - col4
+                <&pro_micro 100 GPIO_ACTIVE_HIGH>, // D6 / P1.00 - col5
+                <&pro_micro 11 GPIO_ACTIVE_HIGH>,  // D7 / P0.11 - col6
+                <&pro_micro 104 GPIO_ACTIVE_HIGH>; // D8 / P1.04 - col7
+
     rotary_encoder: rotary_encoder {
         compatible = "zmk,rotary-encoder";
-        encoder_gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH)>, // D1/P0.06 - Encoder A
-                        <&pro_micro 8 (GPIO_ACTIVE_HIGH)>; // D0/P0.08 - Encoder B
+        encoder-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>, // D1 / P0.06 - Encoder A
+                        <&pro_micro 8 GPIO_ACTIVE_HIGH>; // D0 / P0.08 - Encoder B
     };
 };
