@@ -9,10 +9,14 @@
                 <&pro_micro 7 GPIO_ACTIVE_HIGH>,  // D7 / P0.11 - col6
                 <&pro_micro 8 GPIO_ACTIVE_HIGH>; // D8 / P1.04 - col7
 
+/*
     rotary_encoder: rotary_encoder {
         compatible = "zmk,rotary-encoder";
         encoder-gpios = <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, // D1 / P0.06 - Encoder A
                         <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // D0 / P0.08 - Encoder B
 
     };
+
+*/
+
 };
