@@ -25,10 +25,10 @@
         wakeup-source;
         diode-direction = "col2row";
         
-        row-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>, // D9 / P1.06 - row1
-                    <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,  // D21 / P0.31 - row2
-                    <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,  // D20 / P0.29 - row3
-                    <&pro_micro 19  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // D19 / P0.02 - row4
+        row-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // D9 / P1.06 - row1
+                    <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // D21 / P0.31 - row2
+                    <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // D20 / P0.29 - row3
+                    <&pro_micro 19  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // D19 / P0.02 - row4
 
 
 
