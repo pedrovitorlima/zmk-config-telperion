@@ -6,19 +6,13 @@
 
   
 &kscan0 {
-    col-gpios = <&seed_xiao 2 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
-                <&pro_micro 3 GPIO_ACTIVE_HIGH>,  // D3 / P0.20 - col2
-                <&pro_micro 4 GPIO_ACTIVE_HIGH>,  // D4 / P0.22 - col3
-                <&pro_micro 5 GPIO_ACTIVE_HIGH>,  // D5 / P0.24 - col4
-                <&pro_micro 6 GPIO_ACTIVE_HIGH>, // D6 / P1.00 - col5
-                <&pro_micro 7 GPIO_ACTIVE_HIGH>,  // D7 / P0.11 - col6
-                <&pro_micro 8 GPIO_ACTIVE_HIGH>; // D8 / P1.04 - col7
+    col-gpios = <&xiao_d 2 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
+                <&xiao_d 3 GPIO_ACTIVE_HIGH>,  // D3 / P0.20 - col2
+                <&xiao_d 4 GPIO_ACTIVE_HIGH>,  // D4 / P0.22 - col3
+                <&xiao_d 5 GPIO_ACTIVE_HIGH>,  // D5 / P0.24 - col4
+                <&xiao_d 6 GPIO_ACTIVE_HIGH>, // D6 / P1.00 - col5
+                <&xiao_d 7 GPIO_ACTIVE_HIGH>,  // D7 / P0.11 - col6
+                <&xiao_d 8 GPIO_ACTIVE_HIGH>; // D8 / P1.04 - col7
 
-    rotary_encoder: rotary_encoder {
-        compatible = "zmk,rotary-encoder";
-        encoder-gpios = <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, // D1 / P0.06 - Encoder A
-                        <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // D0 / P0.08 - Encoder B
-
-    };
 };
 
