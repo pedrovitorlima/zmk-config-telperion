@@ -1,0 +1,5 @@
+config SHIELD_TELPERION_LEFT
+    def_bool $(shields_list_contains, telperion_left)
+
+config SHIELD_TELPERION_RIGHT
+    def_bool $(shields_list_contains, telperion_right)

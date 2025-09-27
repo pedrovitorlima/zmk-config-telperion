@@ -1,0 +1,12 @@
+#include "telperion.dtsi"
+
+&kscan0 {
+    col-gpios = <&xiao 0 GPIO_ACTIVE_HIGH>,  
+                <&xiao 1 GPIO_ACTIVE_HIGH>,  
+                <&xiao 2 GPIO_ACTIVE_HIGH>,  
+                <&xiao 3 GPIO_ACTIVE_HIGH>,  
+                <&xiao 4 GPIO_ACTIVE_HIGH>, 
+                <&xiao 5 GPIO_ACTIVE_HIGH>, 
+                <&xiao 6 GPIO_ACTIVE_HIGH>; 
+
+};

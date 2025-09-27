@@ -1,5 +1,0 @@
-config SHIELD_SILMARIL_LEFT
-    def_bool $(shields_list_contains, silmaril_left)
-
-config SHIELD_SILMARIL_RIGHT
-    def_bool $(shields_list_contains, silmaril_right)

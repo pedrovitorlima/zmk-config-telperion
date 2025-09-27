@@ -1,4 +1,4 @@
-#include "silmaril.dtsi"
+#include "telperion.dtsi"
 
 &default_transform {
     col-offset = <7>;  /* start after left 7 columns */
@@ -6,7 +6,7 @@
 
   
 &kscan0 {
-    col-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
+    col-gpios = <&seed_xiao 2 GPIO_ACTIVE_HIGH>,  // D2 / P0.17 - col1
                 <&pro_micro 3 GPIO_ACTIVE_HIGH>,  // D3 / P0.20 - col2
                 <&pro_micro 4 GPIO_ACTIVE_HIGH>,  // D4 / P0.22 - col3
                 <&pro_micro 5 GPIO_ACTIVE_HIGH>,  // D5 / P0.24 - col4

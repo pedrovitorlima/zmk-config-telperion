@@ -1,14 +1,14 @@
-if SHIELD_SILMARIL_LEFT
+if SHIELD_TELPERION_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Silmaril"
+    default "Telperion"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_SILMARIL_LEFT || SHIELD_SILMARIL_RIGHT
+if SHIELD_TELPERION_LEFT || SHIELD_TELPERION_RIGHT
 
 config ZMK_SPLIT
     default y

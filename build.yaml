@@ -1,8 +1,8 @@
 
 include:
-  - board: nice_nano_v2
-    shield: silmaril_left
-  - board: nice_nano_v2
-    shield: silmaril_right
-  - board: nice_nano_v2
+  - board: seeeduino_xiao_ble
+    shield: telperion_left
+  - board: seeeduino_xiao_ble
+    shield: telperion_right
+  - board: seeeduino_xiao_ble
     shield: settings_reset
