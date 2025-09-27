@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -51,10 +50,10 @@
 
         layer0 {
             bindings = <
-&lt 4 EQUAL         &lt 3 Q         &kp W               &kp E                    &kp R                      &kp T           &none                    &none            &kp Y            &kp U            &kp I           &kp O                    &kp P                        &lt 5 MINUS            
-&mt LEFT_SHIFT TAB  &hm LEFT_GUI A  &hm LEFT_CONTROL S  &hm LEFT_ALT D           &kp F                      &kp G           &none                    &none            &kp H            &kp J            &hm RALT K      &hm RIGHT_CONTROL L      &hm RIGHT_COMMAND SEMICOLON  &hm RSHFT BACKSLASH    
-&kp LEFT_GUI        &kp Z           &kp X               &kp C                    &kp V                      &kp B                                                     &kp N            &kp M            &kp COMMA        &kp DOT                  &mt LA(LCTRL) SLASH         &lt 4 SQT                    
-                                                                                 &mt LEFT_CONTROL ESCAPE    &lt 1 ENTER     &mt LALT TAB             &lt 1 BACKSPACE  &lt 2 SPACE      &mt RALT GRAVE
+&lt 4 ESCAPE    &lt 3 Q           &kp W                 &kp E                   &kp R                        &kp T                                                           &kp Y            &kp U             &kp I           &kp O                  &kp P                            &kp MINUS
+&kp LEFT_SHIFT  &weak LEFT_GUI A  &weak LEFT_CONTROL S  &weak LEFT_ALT D        &kp F                        &kp G                                                           &kp H            &kp J             &weak RALT K    &weak RIGHT_CONTROL L  &weak RIGHT_COMMAND SEMICOLON    &weak RSHFT BACKSLASH
+&kp LEFT_GUI    &kp Z             &kp X                 &kp C                   &kp V                        &kp B             &none                        &none            &kp N            &kp M             &kp COMMA       &kp DOT                &mt LA(LCTRL) SLASH              &lt 4 SQT
+                                                                                &mt LEFT_CONTROL EQUAL       &lt 1 ENTER       &mt LALT TAB                 &lt 1 BACKSPACE  &lt 2 SPACE      &mt RALT GRAVE
             >;
         };
     };
