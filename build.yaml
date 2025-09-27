@@ -1,8 +1,8 @@
 
 include:
-  - board: seeeduino_xiao_ble
+  - board: seeed_xiao_esp32c6
     shield: telperion_left
-  - board: seeeduino_xiao_ble
+  - board: seeed_xiao_esp32c6
     shield: telperion_right
-  - board: seeeduino_xiao_ble
+  - board: seeed_xiao_esp32c6
     shield: settings_reset
