@@ -9,11 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <20>;
-    };
 
     behaviors {
         hm: homerow_mods {
@@ -62,8 +57,6 @@
 &kp LGUI     &kp Z    &kp X  &kp C  &kp V    &kp B    &kp M    &kp COMMA        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &lt 4 APOS
                                     &kp ESC  &kp RET  &kp TAB  &lt 1 BACKSPACE  &kp SPACE  &kp GRAVE
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         layer_1 {
