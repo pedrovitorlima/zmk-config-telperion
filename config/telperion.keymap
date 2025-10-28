@@ -45,6 +45,7 @@
             require-prior-idle-ms = <125>;
             quick-tap-ms = <230>;
         };
+
     };
 
     keymap {
@@ -57,6 +58,8 @@
 &kp LGUI     &kp Z    &kp X  &kp C  &kp V    &kp B    &kp M    &kp COMMA        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &lt 4 APOS
                                     &kp ESC  &kp RET  &kp TAB  &lt 1 BACKSPACE  &kp SPACE  &kp GRAVE
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_1 {
