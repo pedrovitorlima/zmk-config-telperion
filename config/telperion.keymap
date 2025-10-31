@@ -47,7 +47,6 @@
         };
 
     };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -59,7 +58,8 @@
                                     &kp ESC  &kp RET  &kp TAB  &lt 1 BACKSPACE  &kp SPACE  &kp GRAVE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+
         };
 
         layer_1 {
