@@ -13,3 +13,10 @@ if SHIELD_TELPERION_LEFT || SHIELD_TELPERION_RIGHT
     config ZMK_SPLIT
         default y
 endif
+
+if SHIELD_TELPERION_RIGHT
+    
+    config ZMK_SPLIT_ROLE_PERIPHERAL
+        default y
+    
+endif
