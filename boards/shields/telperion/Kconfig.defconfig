@@ -17,6 +17,7 @@ endif
 if SHIELD_TELPERION_RIGHT
     
     config ZMK_SPLIT_ROLE_PERIPHERAL
+        bool "Peripheral role"
         default y
     
 endif
